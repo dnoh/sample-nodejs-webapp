@@ -1,4 +1,8 @@
 ### Web Application using Node, Bootstrap, and MongoDB
+
+## Description:
+Runs a Node.js web application that asks for input of a robot with a certain type and assigns it tasks and then saves the robot and its tasks done into a database which persists.
+
 # Prerequisites:
 Node.js - https://nodejs.org/en/ 
 MongoDB - https://www.mongodb.com/
