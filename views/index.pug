@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  h1 Leaderboard
+  a(href="/")
+        button(type="button"  class="btn btn-lg btn-primary") Home
+  br
+  br      
+
+  if registrations.length
+    table.listing-table.table-dark.table-striped
+      tr
+        th Name
+        th Type
+        th Time 
+        th Tasks Completed
+        th Tasks Attempted
+      each registration in registrations
+        tr
+          td= registration.name
+          td= registration.type
+          td= registration.time
+          td= registration.tasks
+          td= registration.attempted
+  else
+    p No registrations yet :(

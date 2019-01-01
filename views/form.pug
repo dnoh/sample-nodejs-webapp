@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  h1 Bot-o-Mat
+  
+  -data = data || {}
+  
+  if errors
+    ul
+      for error in errors
+        li= error.msg
+  
+  form(action="." method="POST" class="form-registration")
+    label(for="name") Name: 
+    |  
+    input(
+      type="text"
+      id="name"
+      name="name"
+      class="form-control"
+      value=data.name
+    ) 
+    |      
+    label(for="type") Type: 
+    input(
+      type="text"
+      id="type"
+      name="type"
+      class="form-control"
+      value=data.type
+    )
+
+    input(type="submit" value="Submit" class="btn btn-lg btn-primary btn-block")
+
+    a(href="/registrations")
+        button(type="button"  class="btn btn-lg btn-primary btn-block center") Leaderboard
