@@ -4,10 +4,9 @@
 Runs a Node.js web application that asks for input of a robot with a certain type and assigns it tasks and then saves the robot and its tasks done into a database which persists.
 
 ## Prerequisites:
-### Node.js - https://nodejs.org/en/ 
-### MongoDB - https://www.mongodb.com/
-
-### Installation Guide: 
+#### Node.js
+https://nodejs.org/en/ 
+#### Installation Guide: 
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/?_ga=2.80539348.290611985.1543020155-212222879.1543020155
 
 ## Setup:
