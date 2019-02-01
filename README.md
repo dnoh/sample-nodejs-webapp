@@ -24,5 +24,4 @@ https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/?_ga=2.80539348
 ## Common Issues
 Ran into an issue after creating the /data/db directory because the directory does not have permissions. 
 
-Fix:
-https://stackoverflow.com/questions/42446931/mongodb-exception-in-initandlisten-20-attempted-to-create-a-lock-file-on-a-rea/42447303
+Link: https://stackoverflow.com/questions/42446931/mongodb-exception-in-initandlisten-20-attempted-to-create-a-lock-file-on-a-rea/42447303
